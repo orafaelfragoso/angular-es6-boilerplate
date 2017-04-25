@@ -1,0 +1,13 @@
+*.log
+/.*/
+/.eslint*
+/.babel*
+/.editor*
+/.gitignore
+/.npmignore
+/.travis.yml
+/.codeclimate.yml
+/webpack.*
+coverage
+test
+tests.webpack.js
