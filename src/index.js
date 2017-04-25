@@ -1,9 +1,9 @@
 import angular from 'angular';
-import StringifyHTML from './demo.js';
+import DemoHTML from './demo.js';
 
 const MODULE_NAME = 'demo';
 
 angular.module(MODULE_NAME, [])
-  .directive('demoHtml', () => new StringifyHTML);
+  .directive('demoHtml', () => new DemoHTML);
 
 export default MODULE_NAME;
