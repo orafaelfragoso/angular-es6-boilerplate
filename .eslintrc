@@ -1,8 +1,19 @@
 {
   "extends": "airbnb/base",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
   "rules": {
+    "semi": 2
   },
   "globals": {
-    "angular": true
-   }
+    "angular": true,
+    "inject": true
+  },
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "plugins": ["angular", "jasmine"]
 }

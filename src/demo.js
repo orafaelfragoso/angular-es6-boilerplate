@@ -1,15 +1,22 @@
-'use strict';
-
-export default class StringifyHTML {
+export default class DemoHTML {
 
   constructor() {
-    this.restrict = 'EA';
-    this.scope = '=';
-
-    this.bindToController = true;
+    this.restrict = 'E';
+    this.scope = {};
+    this.template = '<div>Demo Page</div>';
   }
 
-  link() {
-    return;
-  }
-};
+  // compile(el) {
+
+  // }
+
+  // controller($scope) {
+
+  // }
+
+  // link(scope, element, attrs) {
+
+  // }
+
+}
+

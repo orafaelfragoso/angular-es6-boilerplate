@@ -10,5 +10,3 @@ script:
 cache:
   directories:
     - node_modules
-addons:
-  sauce_connect: true

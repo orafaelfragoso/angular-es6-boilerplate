@@ -1,9 +1,9 @@
 {
-  "name": "angular1-es6-component-boilerplate",
-  "version": "0.0.1",
+  "name": "angular-es6-boilerplate",
+  "version": "0.0.2",
   "description": "A simple boilerplate for Angular 1.X Directives and Components with ES6 + Karma",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack && uglifyjs ./dist/strict-html.js -c -m -o ./dist/strict-html.min.js --source-map ./dist/strict-html.min.js.map",
+    "build": "cross-env NODE_ENV=production webpack && uglifyjs ./dist/demo.js -c -m -o ./dist/demo.min.js --source-map ./dist/demo.min.js.map",
     "postinstall": "npm run check-dependencies",
     "check-dependencies": "nsp check",
     "lint": "eslint './'",
@@ -39,11 +39,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rafaelfragosom/angular1-es6-component-boilerplate"
+    "url": "https://github.com/rafaelfragosom/angular-es6-boilerplate"
   },
   "devDependencies": {
-    "angular": "^1.5.8",
-    "angular-mocks": "^1.5.8",
+    "angular-mocks": "^1.5.0",
     "babel-core": "^6.4.0",
     "babel-eslint": "^7.2.3",
     "babel-istanbul": "^0.12.2",
@@ -55,6 +54,9 @@
     "cross-env": "^4.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-angular": "^2.4.0",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jasmine": "^2.2.0",
     "istanbul-instrumenter-loader": "^2.0.0",
     "jasmine-core": "^2.4.1",
     "karma": "^1.6.0",
@@ -70,5 +72,7 @@
     "uglify-js": "^2.8.22",
     "webpack": "^2.4.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
 }

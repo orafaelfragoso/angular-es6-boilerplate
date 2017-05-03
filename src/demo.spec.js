@@ -1,24 +1,22 @@
-'use strict';
-
 import app from '../src';
 
 describe('demo-html directive', () => {
-  let element, scope;
+  let element;
+  let scope;
+  let template;
 
-  beforeEach(angular.mock.module(app));
+  beforeEach(() => angular.mock.module(app));
 
-  beforeEach(inject(function(_$rootScope_, _$compile_) {
-    let $rootScope = _$rootScope_,
-        $compile = _$compile_;
+  beforeEach(inject((_$rootScope_, _$compile_) => {
+    const $rootScope = _$rootScope_;
+    const $compile   = _$compile_;
 
-    scope = $rootScope.$new();
-
-    element = angular.element('<demo-html></demo-html>');
-
-    $compile(element)(scope);
+    scope   = $rootScope.$new();
+    element = $compile('<demo-html></demo-html>')(scope);
+    scope.$digest();
   }));
 
-  it('Should be true', () => {
-    expect(true).toBe(true);
+  it('Should show text "Demo Page"', () => {
+    expect(element.text()).toBe('Demo Page');
   });
 });
