@@ -1,6 +1,6 @@
 {
   "name": "angular-es6-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple boilerplate for Angular 1.X Directives and Components with ES6 + Karma",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack && uglifyjs ./dist/demo.js -c -m -o ./dist/demo.min.js --source-map ./dist/demo.min.js.map",
