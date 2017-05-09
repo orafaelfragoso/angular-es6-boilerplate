@@ -1,4 +1,4 @@
-# Angular ES6 Component Boilerplate
+# Angular ES6 Component Boilerplate [![Build Status](https://travis-ci.org/rafaelfragosom/angular-es6-boilerplate.svg?branch=master)](https://travis-ci.org/rafaelfragosom/angular-es6-boilerplate)
 
 A simple boilerplate for Angular 1.X Directives and Components with ES6 + Karma + Webpack2
 
