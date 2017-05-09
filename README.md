@@ -88,7 +88,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Rafael Fragoso** - *Initial work* - [rafaelfragosom](https://github.com/rafaelfragoso)
+* **Rafael Fragoso** - *Initial work* - [rafaelfragosom](https://github.com/rafaelfragosom)
 
 See also the list of [contributors](https://github.com/rafaelfragosom/angular-es6-boilerplate/contributors) who participated in this project.
 
