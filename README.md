@@ -95,6 +95,7 @@ See also the list of [contributors](https://github.com/rafaelfragosom/angular-es
 ## TODO
 
 - [ ] Yeoman Generator
+- [ ] Demo Page
 
 ## License
 
