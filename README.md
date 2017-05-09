@@ -9,7 +9,7 @@ A simple boilerplate for Angular 1.X Directives and Components with ES6 + Karma 
     1. [Prerequisites](#prerequisites)
     2. [Installing](#installing)
     3. [Using](#using)
-    4. [New to Using ES6 with AngularJS 1.X?](#new-to-using-es6-with-angularjs-1.x)
+    4. [New to Using ES6 with AngularJS 1.X?](#new-to-using-es6-with-angularjs-1x)
 6. [Built With](#built-with)
 6. [Contributing](#contributing)
 7. [Versioning](#versioning)

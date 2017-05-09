@@ -3,15 +3,14 @@ import app from '../src';
 describe('demo-html directive', () => {
   let element;
   let scope;
-  let template;
 
   beforeEach(() => angular.mock.module(app));
 
   beforeEach(inject((_$rootScope_, _$compile_) => {
     const $rootScope = _$rootScope_;
-    const $compile   = _$compile_;
+    const $compile = _$compile_;
 
-    scope   = $rootScope.$new();
+    scope = $rootScope.$new();
     element = $compile('<demo-html></demo-html>')(scope);
     scope.$digest();
   }));
